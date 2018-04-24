@@ -10,7 +10,7 @@ namespace CalculLibrary
     {
         public static int GetInt(string valeur)
         {
-            return Int32.Parse(valeur) + 1;
+            return Int32.Parse(valeur);
         }
     }
 }
