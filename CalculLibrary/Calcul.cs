@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculLibrary
 {
-    public class Class1
+    public class Calcul
     {
+        public static int GetInt(string valeur)
+        {
+            return Int32.Parse(valeur) + 1;
+        }
     }
 }
